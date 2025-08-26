@@ -1,0 +1,6 @@
+name: RomajiChat
+version: 1.0.1
+main: core.java.RomajiChatPlugin
+api-version: 1.21
+author: cyan-cs
+description: Romaji to Hiragana chat converter for Paper

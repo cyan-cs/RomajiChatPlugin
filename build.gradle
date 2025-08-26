@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+}
+
+group = 'core.java'
+version = '1.0.1'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.7-R0.1-SNAPSHOT'
+}
+
+// Java 21 を指定
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+// ソースとリソースのディレクトリ指定
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/core/java']
+        }
+        resources {
+            srcDirs = ['src/core/resources']
+        }
+    }
+}
+
+// jar タスク
+tasks.jar {
+    archiveBaseName.set('RomajiChat')
+    archiveVersion.set('1.0.0')
+
+    manifest {
+        attributes(
+            'Main-Class': 'core.java.RomajiChatPlugin'
+        )
+    }
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE  // plugin.yml 重複対策
+}
