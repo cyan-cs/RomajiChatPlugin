@@ -60,4 +60,5 @@ clone https://github.com/cyan-cs/RomajiChatPlugin.git
 - ねむい
 - `やきいも`とかいうふざけたサブタイトルは[yh2237](https://github.com/yh2237)が考案したものです
 - Discordサーバーにも入ってね
-# [Discordサーバー](https://discord.gg/nq2tQXHAXt)
+# - [ぱすた(Discordサーバー)](https://discord.gg/nq2tQXHAXt)
+# - [X](https://x.com/dev_cyan)
