@@ -49,6 +49,7 @@
 ```bash
 clone https://github.com/cyan-cs/RomajiChatPlugin.git
 ```
+
 を実行します。
 3. ダウンロードしたZIPを解凍します。
 4. ルートに`libs`,`build`フォルダを作成します。
