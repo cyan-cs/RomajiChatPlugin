@@ -63,3 +63,4 @@ clone https://github.com/cyan-cs/RomajiChatPlugin.git
 - Discordサーバーにも入ってね
 # - [ぱすた(Discordサーバー)](https://discord.gg/nq2tQXHAXt)
 # - [X](https://x.com/dev_cyan)
+- VSCodeで開発して大変だった...
