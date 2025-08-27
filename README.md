@@ -47,7 +47,7 @@
 ## 8. ソースをダウンロードして開発する場合
 1. ターミナルで
 ```bash
-clone https://github.com/cyan-cs/RomajiChatPlugin.git
+git clone https://github.com/cyan-cs/RomajiChatPlugin.git
 ```
 
 を実行します。
