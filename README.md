@@ -42,7 +42,7 @@
 このリポジトリは[MIT License](https://opensource.org/licenses/MIT) で公開されています。
 
 ## 7. インストール方法
-
+- [RomajiChatPlugin 1.0.1](https://github.com/user-attachments/files/21998479/RomajiChat-1.0.1.zip) (推奨)
 ## 8. ソースをダウンロードして開発する場合
 1. ターミナルで
 ```bash
